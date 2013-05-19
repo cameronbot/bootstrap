@@ -20,11 +20,14 @@
 
 // Accent colors
 // -------------------------
-@blue:                  #049cdb;
-@blueDark:              #0064cd;
+//@blue:                  #049cdb;
+@blue:                  #1279be;
+//@blueDark:              #0064cd;
+@blueDark:              darken(@blue, 15%);
 @green:                 #46a546;
 @red:                   #9d261d;
-@yellow:                #ffc40d;
+//@yellow:                #ffc40d;
+@yellow:                #ffd800;
 @orange:                #f89406;
 @pink:                  #c3325f;
 @purple:                #7a43b6;
@@ -38,7 +41,8 @@
 
 // Links
 // -------------------------
-@linkColor:             #08c;
+//@linkColor:             #08c;
+@linkColor:             @yellow;
 @linkColorHover:        darken(@linkColor, 15%);
 
 
@@ -105,6 +109,10 @@
 
 @btnInverseBackground:              #444;
 @btnInverseBackgroundHighlight:     @grayDarker;
+
+@btnBlueBackground:                 @blue;
+@btnBlueBackgroundHighlight:        spin(@btnBlueBackground, 20%);
+
 
 
 // Forms
