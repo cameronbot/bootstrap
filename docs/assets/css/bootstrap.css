@@ -3555,6 +3555,72 @@ input[type="button"].btn-block {
   background-color: #080808 \9;
 }
 
+.btn-blue {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #557dba;
+  *background-color: #5568ba;
+  background-image: -moz-linear-gradient(top, #558aba, #5568ba);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#558aba), to(#5568ba));
+  background-image: -webkit-linear-gradient(top, #558aba, #5568ba);
+  background-image: -o-linear-gradient(top, #558aba, #5568ba);
+  background-image: linear-gradient(to bottom, #558aba, #5568ba);
+  background-repeat: repeat-x;
+  border-color: #5568ba #5568ba #38488a;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff558aba', endColorstr='#ff5568ba', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-blue:hover,
+.btn-blue:focus,
+.btn-blue:active,
+.btn-blue.active,
+.btn-blue.disabled,
+.btn-blue[disabled] {
+  color: #ffffff;
+  background-color: #5568ba;
+  *background-color: #475baf;
+}
+
+.btn-blue:active,
+.btn-blue.active {
+  background-color: #40519c \9;
+}
+
+.btn-orange {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #006dcc;
+  *background-color: #0044cc;
+  background-image: -moz-linear-gradient(top, #0088cc, #0044cc);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc));
+  background-image: -webkit-linear-gradient(top, #0088cc, #0044cc);
+  background-image: -o-linear-gradient(top, #0088cc, #0044cc);
+  background-image: linear-gradient(to bottom, #0088cc, #0044cc);
+  background-repeat: repeat-x;
+  border-color: #0044cc #0044cc #002a80;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-orange:hover,
+.btn-orange:focus,
+.btn-orange:active,
+.btn-orange.active,
+.btn-orange.disabled,
+.btn-orange[disabled] {
+  color: #ffffff;
+  background-color: #0044cc;
+  *background-color: #003bb3;
+}
+
+.btn-orange:active,
+.btn-orange.active {
+  background-color: #003399 \9;
+}
+
 button.btn,
 input[type="submit"].btn {
   *padding-top: 3px;
